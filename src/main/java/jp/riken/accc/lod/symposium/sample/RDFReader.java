@@ -1,10 +1,8 @@
 package jp.riken.accc.lod.symposium.sample;
 
-import org.apache.jena.rdf.model.Literal;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
-import org.apache.jena.rdf.model.Property;
-import org.apache.jena.rdf.model.Resource;
+
 
 public class RDFReader {
 
