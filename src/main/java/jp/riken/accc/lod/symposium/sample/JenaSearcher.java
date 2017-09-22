@@ -19,7 +19,7 @@ public class JenaSearcher {
 		Model model = ModelFactory.createDefaultModel();
 	
 		// RDFファイルを読み込む
-		model.read("/temp/RDFSample1.ttl");
+		model.read("./RDFSample1.ttl");
 	
 		// Statementのイテレータとして、トリプルリストを取得する
 		StmtIterator sit = model.listStatements();

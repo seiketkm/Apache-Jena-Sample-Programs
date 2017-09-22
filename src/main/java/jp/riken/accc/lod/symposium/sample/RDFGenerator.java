@@ -46,7 +46,7 @@ public class RDFGenerator {
 		model.write(System.out, "N-TRIPLES"); 
 		
 		// N-TRIPLES形式でmodel内のデータをファイルに出力
-		FileOutputStream fos = new FileOutputStream(new File("/temp/RDFSample1.ttl"));
+		FileOutputStream fos = new FileOutputStream(new File("./RDFSample1.ttl"));
 		model.write(fos, "N-TRIPLES");
 		fos.close();
 

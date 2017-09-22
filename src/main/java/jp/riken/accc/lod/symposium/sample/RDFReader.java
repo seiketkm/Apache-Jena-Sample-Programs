@@ -12,7 +12,7 @@ public class RDFReader {
 		Model model = ModelFactory.createDefaultModel();
 		
 		// RDFファイルを読み込む
-		model.read("/temp/RDFSample1.ttl");
+		model.read("./RDFSample1.ttl");
 
 		// N-TRIPLES形式でmodel内のデータを標準出力に表示
 		model.write(System.out, "N-TRIPLES"); 

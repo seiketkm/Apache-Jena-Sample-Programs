@@ -17,7 +17,7 @@ public class SPARQLSearcherForModel {
 		Model model = ModelFactory.createDefaultModel();
 		
 		// RDFファイルを読み込む
-		model.read("/temp/RDFSample1.ttl");
+		model.read("./RDFSample1.ttl");
 		
 		// 読み込んだデータを念のため表示する
 		model.write(System.out, "N-TRIPLES");
